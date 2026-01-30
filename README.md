@@ -1,15 +1,15 @@
 # DSA and CP Series
 
-### In this repo you can find useful practise problems.
+## In this repo you can find useful practise problems.
 
-#### Problem 1
+### Problem 1
 Find out how to find if a number is power of 2 or not witout any loop.
 > **Hints:**
 * You must use Bitwise Operator to solve this problem.
 
-  [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/tree/main/Bitwise%20Operator)
+  [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Bitwise%20Operator/problem_one.cpp)
 
-## Problem 2: The Integer Reversal Challenge
+### Problem 2: The Integer Reversal Challenge
 
 **Objective:**
 Design an algorithm that accepts an integer and returns it with its digits reversed.
@@ -35,29 +35,7 @@ Think of the number **25**:
 To reverse it to **52**, we are essentially swapping the importance (weight) of the digits:
 `52 = (5 * 10) + (2 * 1)`
 
-**The Algorithm:**
-To reverse any number mathematically, we repeat a three-step cycle until the original number becomes zero:
-
-1. **Extract:** Get the last digit of the number using the **modulo operator** (remainder of division by 10).
-   * *e.g., `456 % 10 = 6`*
-2. **Append:** Add this digit to your reversed number. Since we are building a Base-10 number, we multiply our current result by 10 to "make room" for the new digit.
-   * *Formula: `New_Result = (Current_Result * 10) + Extracted_Digit`*
-3. **Reduce:** Remove the last digit from the original number using **integer division**.
-   * *e.g., `456 / 10 = 45` (integer)*
 
 > **Key Takeaway:** By constantly popping the last digit off the original number and pushing it onto the back of the new number, you mathematically reconstruct the integer in reverse.
 
-  [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/tree/main/Bitwise%20Operator)
-
-## Problem 2: Reverse an Integer
-
-**Objective:** Return an integer with its digits reversed (e.g., `456` → `654`) using mathematical logic (no string conversion).
-
-### 🧠 Logic
-Use a loop to extract digits from the input and build the new number:
-
-1. **Extract** the last digit: `last_digit = number % 10`
-2. **Append** to result: `reversed_num = (reversed_num * 10) + last_digit`
-3. **Reduce** the original: `number = number // 10`
-
-> **Note:** The formula `reversed_num * 10` shifts the current digits to the left to make room for the new one.
+  [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Bitwise%20Operator/problem_two.cpp)
