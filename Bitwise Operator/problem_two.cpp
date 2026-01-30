@@ -11,7 +11,6 @@ int main(){
 
     int count = 0;
     int sum = 0;
-    int divisor = 10;
 
     int temp = a;
 
