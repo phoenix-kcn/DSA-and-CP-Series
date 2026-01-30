@@ -37,5 +37,4 @@ To reverse it to **52**, we are essentially swapping the importance (weight) of 
 
 
 > **Key Takeaway:** By constantly popping the last digit off the original number and pushing it onto the back of the new number, you mathematically reconstruct the integer in reverse.
-
-   [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Bitwise%20Operator/problem_two.cpp)
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Bitwise%20Operator/problem_two.cpp)
