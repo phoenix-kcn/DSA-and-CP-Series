@@ -49,3 +49,15 @@ To reverse any number mathematically, we repeat a three-step cycle until the ori
 
   [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/tree/main/Bitwise%20Operator)
 
+## Problem 2: Reverse an Integer
+
+**Objective:** Return an integer with its digits reversed (e.g., `456` → `654`) using mathematical logic (no string conversion).
+
+### 🧠 Logic
+Use a loop to extract digits from the input and build the new number:
+
+1. **Extract** the last digit: `last_digit = number % 10`
+2. **Append** to result: `reversed_num = (reversed_num * 10) + last_digit`
+3. **Reduce** the original: `number = number // 10`
+
+> **Note:** The formula `reversed_num * 10` shifts the current digits to the left to make room for the new one.
