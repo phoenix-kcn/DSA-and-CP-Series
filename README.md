@@ -20,12 +20,12 @@ Design an algorithm that accepts an integer and returns it with its digits rever
 * Input: `456` → Output: `654`
 * Input: `753951` → Output: `159357`
 
-###Strategy & Hints
+### Strategy & Hints
 
 * **Keep it fundamental:** You do not need to convert the number into a string or use fancy libraries.
 * **The Tools:** This problem is best solved using core mathematical logic and a simple loop.
 
-###The Mathematical Logic
+### The Mathematical Logic
 
 At first glance, reversing a number like **25** to get **52** feels intuitive. However, to teach a computer to do this, we must deconstruct the **Base-10** place value system.
 
