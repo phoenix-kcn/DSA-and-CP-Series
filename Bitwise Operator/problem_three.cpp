@@ -2,10 +2,8 @@
 using namespace std;
 
 int main(){
-    
-    int num[] = {5, 3, 10, 6, 2};
-    int reverse_num[5];
 
+    int num[] = {5, 3, 10, 6, 2};
     int size = sizeof(num) / sizeof(int);
 
     cout << "Original array: ";
@@ -13,17 +11,21 @@ int main(){
         cout << num[i] << " ";
     }
     cout << endl;
-    
-    for(int i=0; i<size; i++){
-        int new_element = num[size - i - 1];
-        reverse_num[i] = new_element;
+
+    cout << "Changing the original array..." << endl;
+    int start = 0;
+    int end = size - 1;
+    while(start < end){
+        swap(num[start], num[end]);
+        start++;
+        end--;
     }
 
-    cout << "Reversed array: ";
+    cout << "Modified array: ";
     for(int i=0; i<size; i++){
-        cout << reverse_num[i] << " ";
+        cout << num[i] << " ";
     }
     cout << endl;
 
-    return 0;
+    return 0; 
 }
