@@ -13,15 +13,11 @@ int main(){
         cin >> operation;
         if (operation == "++X" || operation == "++x"){
             x = x + 1;
-            // new_x = x;
         } else if (operation == "X++" || operation == "x++"){
-            // new_x = x;
             x = x + 1;
         } else if (operation == "--X" || operation == "--x"){
             x = x - 1;
-            // new_x = x;
         } else {
-            // new_x = x;
             x = x - 1;
         }
     }
