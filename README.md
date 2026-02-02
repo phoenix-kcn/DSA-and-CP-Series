@@ -34,3 +34,18 @@ To reverse it to **52**, we are essentially swapping the importance (weight) of 
 `52 = (5 * 10) + (2 * 1)`
 
    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Bitwise%20Operator/problem_two.cpp)
+
+---
+### Problem 3: Reverse an array of integers
+
+**Objective:**
+Write a programme that reverses an array of n number of integers.
+
+**Examples:**
+* Input: `[1, 2, 3, 5]` → Output: `[5, 3, 2, 1]`
+* Input: `[76, 0, -5, 164, 16, 8]` → Output: `[8, 16, 164, -5, 0, 76]`
+
+### Hints
+* Use a loop and then swap the first and last elemant of they reversed totally.
+
+   [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Apna%20College%20HomeWorks/problem_three.cpp)
