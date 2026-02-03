@@ -51,13 +51,13 @@ Write a programme that reverses an array of n number of integers.
 Automatically abbreviate words that are strictly longer than 10 characters by replacing the middle characters with their count.
 
 **Examples:**
-* Input: `localization` → Output: l10n
-* Input: internationalization → Output: i18n
-* Input: apple → Output: apple (No change, length $\le 10$)
+* Input: `localization` → Output: `l10n`
+* Input: `internationalization` → Output: `i18n`
+* Input: `apple` → Output: `apple` (No change, length `$\le 10$`)
 
 ### Hints
-* Check the Length: Use .length() to see if the string needs to be changed.
-* The "Middle" Math: The number of characters to skip is always $TotalLength - 2$.
-* String Concatenation: Combine the first character s[0], the calculated number, and the last character s[length - 1].
+* Check the Length: Use `.length()` to see if the string needs to be changed.
+* The "Middle" Math: The number of characters to skip is always $TotalLength `- 2$`.
+* String Concatenation: Combine the first character `s[0]`, the calculated number, and the last character `s[length - 1]`.
 
    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_four.cpp)
