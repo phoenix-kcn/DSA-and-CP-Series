@@ -16,6 +16,5 @@ int main(){
             cout << s[i] << endl;
         }
     }   
-    
     return 0;
 }
