@@ -1,3 +1,8 @@
+/*
+Problem Statement: 
+Write a program to find the largest and smallest
+ elements in an array along with their indices.
+*/
 #include<iostream>
 #include<climits>
 using namespace std;
