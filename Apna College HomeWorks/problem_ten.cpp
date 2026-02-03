@@ -22,6 +22,7 @@ int main(){
 
     int largest = INT_MIN;
     int smallest = INT_MAX;
+    
     int largestIndex = -1;
     int smallestIndex = -1;
 
