@@ -51,7 +51,7 @@ Write a programme that reverses an array of n number of integers.
 Automatically abbreviate words that are strictly longer than 10 characters by replacing the middle characters with their count.
 
 **Examples:**
-* Input: localization → Output: l10n
+* Input: `localization` → Output: l10n
 * Input: internationalization → Output: i18n
 * Input: apple → Output: apple (No change, length $\le 10$)
 
