@@ -62,7 +62,7 @@ Automatically abbreviate words that are strictly longer than 10 characters by re
 
    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_four.cpp)
 
-### Problem: Team
+### Problem 5: Team
 
 **Objective:**
 Calculate how many problems three friends will solve together. They only implement a solution if at least two of them are sure about it (input is `1`) otherwise they do not (input is `0`).
