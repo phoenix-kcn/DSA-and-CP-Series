@@ -44,7 +44,11 @@ Write a programme that reverses an array of n number of integers.
 **Examples:**
 * Input: `[1, 2, 3, 5]` → Output: `[5, 3, 2, 1]`
 * Input: `[76, 0, -5, 164, 16, 8]` → Output: `[8, 16, 164, -5, 0, 76]`
+
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Apna%20College%20HomeWorks/problem_three.cpp)
+
 ---
+
 ### Problem 4: Way Too Long Words
 
 **Objective:**
@@ -61,3 +65,20 @@ Automatically abbreviate words that are strictly longer than 10 characters by re
 * String Concatenation: Combine the first character `s[0]`, the calculated number, and the last character `s[length - 1]`.
 
    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_four.cpp)
+
+### Problem 5: Team
+
+**Objective:**
+Calculate how many problems three friends will solve together. They only implement a solution if at least two of them are sure about it (input is `1`) otherwise they do not (input is `0`).
+
+**Examples:**
+* Input: `1 1 0` → Output: Count it (Sum is 2, which is $> 1$)
+* Input: `1 1 1` → Output: Count it (Sum is 3, which is $> 1$)
+* Input: `1 0 0` → Output: Skip (Sum is 1, which is $\ngtr 1$)
+
+### Hints
+* **Row-by-Row:** Process each of the $n$ lines individually.
+* **The Math:** If the sum of the three integers on a line is greater than 1 (`sum > 1`), increment your counter.
+* **Input Handling:** You can store the inputs in a 2D array or sum them on the fly to save memory.
+
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_five.cpp)
