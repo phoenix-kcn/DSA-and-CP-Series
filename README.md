@@ -44,7 +44,11 @@ Write a programme that reverses an array of n number of integers.
 **Examples:**
 * Input: `[1, 2, 3, 5]` → Output: `[5, 3, 2, 1]`
 * Input: `[76, 0, -5, 164, 16, 8]` → Output: `[8, 16, 164, -5, 0, 76]`
+
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/Apna%20College%20HomeWorks/problem_three.cpp)
+
 ---
+
 ### Problem 4: Way Too Long Words
 
 **Objective:**
