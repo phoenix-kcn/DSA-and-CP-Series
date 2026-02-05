@@ -77,4 +77,4 @@ Calculate how many problems three friends will solve together. They only impleme
 * **The Math:** If the sum of the three integers on a line is greater than 1 (`sum > 1`), increment your counter.
 * **Input Handling:** You can store the inputs in a 2D array or sum them on the fly to save memory.
 
-[![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_five.cpp)
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_five.cpp)
