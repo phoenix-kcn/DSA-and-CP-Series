@@ -65,6 +65,7 @@ Automatically abbreviate words that are strictly longer than 10 characters by re
 * String Concatenation: Combine the first character `s[0]`, the calculated number, and the last character `s[length - 1]`.
 
    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_four.cpp)
+---
 
 ### Problem 5: Team
 
@@ -82,3 +83,25 @@ Calculate how many problems three friends will solve together. They only impleme
 * **Input Handling:** You can store the inputs in a 2D array or sum them on the fly to save memory.
 
     [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_five.cpp)
+---
+### Problem 6: Bit++
+
+**Objective:**
+You are given a programming language called "Bit++". It contains exactly one variable, $x$, which starts with a value of $0$. You are provided with a program consisting of $n$ statements. Each statement is a string containing an operation.
+* `++` : Increases the value of variable $x$ by 1.
+* `--` : Decreases the value of variable $x$ by 1.
+
+The operations can be written as prefix (`++X`, `--X`) or postfix (`X++`, `X--`). Execute the program and calculate the final value of $x$.
+
+**Examples:**
+* Input: `1 ++X` → Output: `1`
+* Input: `1 --X` → Output: `-1`
+* Input: `2 X++ --X` → Output: `0`
+
+### Hints
+* **Initial Value:** The variable $x$ always starts at 0.
+* **Simplification:** Both `++X` and `X++` perform the same mathematical operation ($x = x + 1$). The same applies to the decrement operations.
+* **String Parsing:** Since the operation format is fixed (3 characters), you only need to check the middle character. If the character at index 1 is `+`, increment $x$. If it is `-`, decrement $x$.
+
+[![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_six.cpp)
+
