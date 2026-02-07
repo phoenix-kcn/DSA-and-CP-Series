@@ -103,5 +103,5 @@ The operations can be written as prefix (`++X`, `--X`) or postfix (`X++`, `X--`)
 * **Simplification:** Both `++X` and `X++` perform the same mathematical operation ($x = x + 1$). The same applies to the decrement operations.
 * **String Parsing:** Since the operation format is fixed (3 characters), you only need to check the middle character. If the character at index 1 is `+`, increment $x$. If it is `-`, decrement $x$.
 
-[![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_six.cpp)
+    [![Solution](https://img.shields.io/badge/Solution-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/phoenix-kcn/DSA-and-CP-Series/blob/main/CodeForces/problem_six.cpp)
 
